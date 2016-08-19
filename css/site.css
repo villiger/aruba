@@ -1,0 +1,118 @@
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding-bottom: 1px;
+    font-weight: 600;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.main .header {
+    text-align: center;
+    background-color: white;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
+.main .header .logo {
+    font-size: 32px;
+    font-weight: 300;
+    padding: 0 10px 5px 10px;
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+
+.main .header .navigation {
+    list-style: none;
+    font-size: 0;
+    margin: 0;
+    margin-top: 12px;
+    padding: 0;
+}
+
+.main .header .navigation li {
+    display: inline-block;
+    border-left: 1px solid black;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0;
+}
+
+.main .header .navigation li:first-child {
+    border-left: none;
+}
+
+.main .header .navigation li a {
+    font-weight: 300;
+}
+
+.main .header .navigation li.selected a {
+    font-weight: 600;
+}
+
+.main.home .header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -110px;
+    margin-left: -280px;
+    width: 560px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 60px 0;
+}
+
+.main.home {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(/images/pattern.png);
+    background-repeat: repeat;
+    background-size: 450px;
+    background-position: center center;
+}
+
+.main.arbeiten {
+    text-align: center;
+}
+
+.main.arbeiten .slider {
+    margin-top: 50px;
+    height: 500px;
+    width: 80%;
+    max-width: 1000px;
+    display: inline-block;
+}
+
+.main.kontakt {
+    text-align: center;
+}
+
+.main.kontakt .person {
+    text-align: justify;
+    vertical-align: top;
+    display: inline-block;
+    width: 600px;
+    padding: 50px 20px;
+}
+
+.main.kontakt .adresse {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 20px;
+}
