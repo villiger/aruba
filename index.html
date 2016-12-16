@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=700">
+	<meta name="description" content="Atelier für Architektur und Städtebau von Marco Bamberger und Elias Aurel Rüedi.">
+	<title>Atelier Aruba</title>
+	<link rel="stylesheet" href="css/jquery.fullPage.css" type="text/css">
+	<link rel="stylesheet" href="css/site.css" type="text/css">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage();
+			$('#section0').click(function() {
+				$.fn.fullpage.moveSectionDown();
+			});
+			
+			var dateObj = new Date();
+			var day = dateObj.getUTCDate();
+			$('#section0').attr('style', 'background-image: url(images/landing_' + (day % 1)+ '.png)');
+		});
+	</script>
+</head>
+<body>
+	<div id="fullpage">
+		<div class="section title" id="section0" style="background-image: url(images/landing_0.png)">
+		</div>
+		<div class="section work" id="section1">
+		    <div class="slide">
+				<div class="image" style="background-image: url(images/arbeiten/01_sonvilier_aussenfoto.jpg)"></div>
+				<div class="caption">Studienauftrag Wohnheim, Sonvilier, mit ds.architekten</div>
+			</div>
+		    <div class="slide">
+				<div class="image" style="background-image: url(images/arbeiten/02_sonvilier_grundriss_og_weiss.png)"></div>
+				<div class="caption">Studienauftrag Wohnheim, Sonvilier, mit ds.architekten</div>
+		    </div>
+		    <div class="slide">
+				<div class="image" style="background-image: url(images/arbeiten/03_cabaret_maison.jpg)"></div>
+				<div class="caption">Wiederaufbau von Privathäusern, Cabaret, Caritas Schweiz, Haiti</div>
+		    </div>
+		    <div class="slide">
+				<div class="image" style="background-image: url(images/arbeiten/04_cabaret_construction.jpg)"></div>
+				<div class="caption">Wiederaufbau von Privathäusern, Cabaret, Caritas Schweiz, Haiti</div>
+		    </div>
+		    <div class="slide">
+				<div class="image" style="background-image: url(images/arbeiten/05_baloise_cover.jpg)"></div>
+				<div class="caption">Vorbereitung und Begleitung Studienauftrag, Basler Versicherungen, mit Beatrice Bayer Architekten</div>
+		    </div>
+		    <div class="slide">
+				<div class="image" style="background-image: url(images/arbeiten/06_baloise_inhalt.jpg)"></div>
+				<div class="caption">Vorbereitung und Begleitung Studienauftrag, Basler Versicherungen, mit Beatrice Bayer Architekten</div>
+		    </div>
+		    <div class="slide">
+				<div class="image" style="background-image: url(images/arbeiten/07_fehraltorf_aussen.jpg)"></div>
+				<div class="caption">Wettbewerb Kindertagesstätte, Fehraltorf, mit Architheke AG</div>
+		    </div>
+		    <div class="slide">
+				<div class="image" style="background-image: url(images/arbeiten/08_fehraltorf_innen.jpg)"></div>
+				<div class="caption">Wettbewerb Kindertagesstätte, Fehraltorf, mit Architheke AG</div>
+		    </div>
+		    <div class="slide">
+				<div class="image" style="background-image: url(images/arbeiten/09_haiti_darbonne.jpg)"></div>
+				<div class="caption">Wiederaufbau von Schulzentren, Darbonne, Caritas Schweiz, Haiti</div>
+		    </div>
+		    <div class="slide">
+				<div class="image" style="background-image: url(images/arbeiten/10_haiti_gressier.jpg)"></div>
+				<div class="caption">Wiederaufbau von Schulzentren, Darbonne, Caritas Schweiz, Haiti</div>
+		    </div>
+		    <div class="slide">
+				<div class="image" style="background-image: url(images/arbeiten/11_pilotnuntzung_herleitung.jpg)"></div>
+				<div class="caption">Theoriearbeit Pilotnutzung, FHNW, mit Philippe Guillod</div>
+		    </div>
+		    <div class="slide">
+				<div class="image" style="background-image: url(images/arbeiten/12_pilotnutzung_in_ketten.jpg)"></div>
+				<div class="caption">Theoriearbeit Pilotnutzung, FHNW, mit Philippe Guillod</div>
+		    </div>
+			<div class="header">
+				<h1>Atelier Aruba</h1>
+				<h2>Architekten MA FH SiA</h2>
+			</div>
+			<div class="footer">
+				Marco Bamberger &amp; Elias Aurel Rüedi -
+				Klybeckstrasse 14 -
+				4057 Basel CH -
+				<a href="mailto:contact@atelier-aruba.ch">contact@atelier-aruba.ch</a>
+			</div>
+		</div>
+	</div>
+	<script>
+        // Google Analytics
+    </script>
+</body>
+</html>
